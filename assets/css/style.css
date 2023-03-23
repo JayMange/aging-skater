@@ -150,9 +150,25 @@ hr {
 }
 
 .left-side-heading {
-    width: 80%;
+    width: 60%;
     float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+.left-side-heading h2 {
+    text-align: center;
+}
+
+.right-side-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-side-heading h2 {
+    text-align: center;
 }
