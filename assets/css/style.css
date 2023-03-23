@@ -56,3 +56,34 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #fff;
 }
+
+/* hero-image */
+
+#hero-outer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#hero-image{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
