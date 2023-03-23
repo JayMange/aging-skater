@@ -172,3 +172,20 @@ hr {
 .right-side-heading h2 {
     text-align: center;
 }
+
+#picture-container {
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#picture-container-bg {
+    background: url(../images/skate1.webp) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
