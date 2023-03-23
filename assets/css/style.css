@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* navigation links */
@@ -111,4 +112,46 @@ h1, h2 {
     right: 150px;
 
     position: absolute;
+}
+
+/* skate group */
+
+#skate-group {
+    height: 75vh;
+}
+
+#left-side-one {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-side-one {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#left-side-two {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-side-two {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#left-side-three {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-side-three {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
 }
